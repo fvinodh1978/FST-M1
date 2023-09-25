@@ -1,0 +1,9 @@
+<suite name="Parameterisation Test" paralled="false">
+    <test name="Login Test">
+        <parameter name="username" value="admin"/>
+        <parameter name="password" value="password"/>
+        <classes>
+            <class name="activities.Activity6"/>
+        </classes>
+    </test>
+</suite>

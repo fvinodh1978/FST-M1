@@ -1,0 +1,8 @@
+<suite name ="Parallel Testing Suite" parallel="classes">
+    <test name="Parallel Testing">
+        <classes>
+            <class name="activities.Activity1"/>
+            <class name="activities.Activity3"/>
+        </classes>
+    </test>
+</suite>
